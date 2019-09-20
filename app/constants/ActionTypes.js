@@ -1,0 +1,5 @@
+export const NEW_GRAPHQL_CALL = 'NEW_GRAPQHL_CALL';
+export const RESET_CALLS = 'RESET_CALLS';
+export const SELECT_CALL = 'SELECT_CALL';
+export const OPEN_GRAPHIQL = 'OPEN_GRAPHIQL';
+export const CLOSE_GRAPHIQL = 'CLOSE_GRAPHIQL';

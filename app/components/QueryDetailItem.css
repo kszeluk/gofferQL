@@ -1,0 +1,67 @@
+.wrapper {
+  display: flex;
+  height: 40px;
+  border-bottom: 1px solid #cdcdcd;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.wrapper:hover {
+  background-color: #eef3fa;
+}
+
+
+.date {
+  flex: 85px 0;
+  text-align: center;
+  border-right: 1px solid #cdcdcd;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dateText {
+  line-height: initial;
+  padding: 5px 0 0 5px;
+  text-align: left;
+}
+
+.queryName {
+  line-height: initial;
+  color: #888;
+  text-align: left;
+  display: block;
+  padding: 3px 0 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.status {
+  flex: 50px 0;
+  text-align: center;
+  border-right: 1px solid #cdcdcd;
+}
+
+.size {
+  flex: 60px 0;
+  text-align: center;
+  border-right: 1px solid #cdcdcd;
+}
+
+.query {
+  flex: 1;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-right: 1px solid #cdcdcd;
+  overflow: hidden;
+  padding: 0 3px;
+}
+
+.time {
+  flex: 60px 0;
+  text-align: center;
+}
+
+.even {
+  background-color: #f5f5f5;
+}

@@ -1,0 +1,95 @@
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    background-color: #f3f3f3;
+    padding: 0;
+    height: 27px;
+    line-height: 27px;
+    border-bottom: 1px solid #cdcdcd;
+    flex: 1 100%;
+}
+
+.mainContainer {
+    height: 100%;
+    flex: 1 100%;
+    overflow: hidden;
+}
+
+.header-tab {
+    cursor: pointer;
+    padding: 0 9px;
+}
+
+.clear-selected {
+    width: 20px;
+    cursor: pointer;
+    border: 3px solid #f3f3f3;
+    height: 20px;
+    margin: 2px 0;
+}
+
+.clear-selected:hover {
+    background-color: #e79790;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.header-tab:hover {
+    background-color: #eaeaea;
+}
+
+.selected {
+    border-bottom: 2px solid #03a9f4;
+    margin-bottom: -1px;
+}
+
+.query {
+    max-height: calc(100% - 60px);
+    overflow: auto;
+    padding: 0 3px;
+}
+
+.response {
+    overflow: auto;
+    max-height: calc(100% - 60px);
+    padding: 0 3px;
+}
+
+.response > ul {
+    height: 100%;
+    margin: 0;
+}
+
+.rightHeader {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonGraphql {
+    height: 22px;
+    margin: 3px 0;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    padding: 0px 12px;
+    font-weight: 500;
+    color: #333;
+    background-color: #fff;
+    flex: none;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .buttonGraphql:hover {
+    background-color: #f3f3f3;
+    box-shadow: 0 1px 2px #0000001a;
+    cursor: pointer;
+  }
+  

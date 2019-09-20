@@ -1,0 +1,52 @@
+.wrapper {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 40px;
+    border-bottom: 1px solid #cdcdcd;
+    cursor: pointer;  
+}
+
+.header {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 27px;
+    line-height: 27px;
+    border-bottom: 1px solid #cdcdcd;
+    background-color: #f3f3f3;
+}
+
+.wrapper:hover {
+    background-color: #eef3fa;
+}
+
+.selected, .selected:hover {
+    background-color: #d4d4d4;
+}
+
+.buttonGraphql {
+    margin: 0 5px 2px;
+    background: #053fff;
+    padding: 2px 4px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #efefef;
+}
+
+.dateText {
+    line-height: initial;
+    padding: 5px 0 0 5px;
+    text-align: left;
+  }
+  
+  .queryName {
+    line-height: initial;
+    color: #888;
+    text-align: left;
+    display: block;
+    padding: 3px 0 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
