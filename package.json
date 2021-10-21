@@ -14,9 +14,12 @@
   },
   "dependencies": {
     "@hot-loader/react-dom": "^17.0.1",
+    "graphiql": "^1.4.2",
+    "graphql": "^15.6.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-hot-loader": "^4.13.0"
+    "react-hot-loader": "^4.13.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
@@ -26,6 +29,7 @@
     "@types/chrome": "^0.0.159",
     "@types/react": "^17.0.30",
     "@types/react-dom": "^17.0.10",
+    "@types/uuid": "^8.3.1",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "babel-preset-react-app": "^10.0.0",
