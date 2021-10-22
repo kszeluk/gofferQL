@@ -77,7 +77,7 @@ const graphQLFetcher =
     return promise.then((value) => value);
   };
 
-export const CustomGraphiQL = (props: IProps): JSX.Element => {
+const CustomGraphiQLImpl = (props: IProps): JSX.Element => {
   const watchers = React.useRef<Watchers>({});
 
   return (
@@ -102,3 +102,5 @@ export const CustomGraphiQL = (props: IProps): JSX.Element => {
     </div>
   );
 };
+
+export const CustomGraphiQL = React.memo(CustomGraphiQLImpl, () => true);
